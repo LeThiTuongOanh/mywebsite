@@ -1,0 +1,393 @@
+.main{
+    height: 1300px;
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+   position: relative;
+}
+
+.thanhtieude
+{
+    width: 100%;
+    height: 70px;
+    background-color: lightgreen;
+    color: white;
+    margin-top: 0;
+    border: 1px solid lightseagreen;
+    position: sticky;
+    top: 0;
+}
+.thanhtieude img{
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin-top: 0;
+
+}
+#thanhcongcu{
+    width: 100%;
+    height: 40px;
+    background-color: lightgreen;
+    color: white;
+    font-size: larger;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    float: left;
+
+    
+}
+
+#tieude{
+    text-shadow: 2px 2px 2px seagreen;
+    margin-top: 0;
+    float: left;
+    font-family: 'Dancing Script', cursive;
+}
+
+#center
+{
+    height: 400px;
+    width: auto;
+    margin-top: 20px;
+  
+}
+
+#thanhtimkiem{
+   margin-left: 300px;
+    display: inline;
+   
+    float: left;
+    padding: 5px 10px;
+    margin-right: 0;
+}
+
+.thanhtieude a{
+   float: right;
+    margin: auto;
+    display: inline;
+    margin-top: 10px;
+    padding: 10px;
+}
+.thanhtieude img{
+    display: inline;
+    padding: 8px 10px;
+    border: 1px solid white;
+    float: left;
+    margin-top: 17px;
+    cursor:pointer;
+}
+#background{
+    height: 350px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+}
+#background img{
+    height: 350px;
+    width: 100%;
+    float: left;
+    margin-left: 0;
+}
+
+#content{
+    height: 600px;
+    width: 100%;
+    padding: 5px;
+
+}
+
+#thanhcongcu a{
+    padding: auto ;
+    text-decoration: none;
+    margin-left: 100px;
+    color: white;
+    font-weight: bold;
+    
+}
+#thanhcongcu a:hover{
+    background-color: green
+}
+
+.list{
+    height: 500px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas:
+    ' r1 r2 r3'
+    'hoagio hoachau catcanh';   
+}
+.subgrid1{
+    grid-area: r1;
+    border: 2px solid lightseagreen;
+    margin-left: 10px;
+    transition: 0.8s;
+}
+.subgrid1:hover
+{
+    transform: scale(1.2, 1.2);
+    background-color: lightgreen;
+}
+.subgrid2:hover
+{
+    transform: scale(1.2, 1.2);
+    background-color: lightgreen;
+}
+.subgrid3:hover
+{
+    transform: scale(1.2, 1.2);
+    background-color: lightgreen;
+}
+.subgrid2{
+    grid-area: r2;
+    border: 2px solid lightseagreen;
+    transition: 0.8s;
+}
+.subgrid3{
+    grid-area: r3;
+    border: 2px solid lightseagreen;
+    transition: 0.8s;
+}
+.thongtin1{
+    grid-area: hoagio;
+}
+.thongtin2{
+    grid-area: hoachau;
+}
+.thongtin3{
+    grid-area: catcanh;
+}
+
+.list a{
+    margin-left: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: lightgreen;
+    text-decoration: none;
+
+}
+#danhmuc{
+    text-shadow:6px 6px 4px lightgreen;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: green;
+    font-size: 50px;
+    margin-left: 100px;
+}
+img{
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 5px;
+    text-align: center;
+    
+}
+
+#footer{
+    margin-top: 30px;
+    height: 200px;
+    width: auto;
+    border: 1px solid lightgreen;
+    font-family: 'Dancing Script', cursive;
+    background-color:green;
+    clear: both;
+}
+#fleft{
+    height: 100px;
+    width: 50%;
+    float: left;
+}
+#fright{
+    height: 100px;
+    width: 50%;
+    float: right;
+}
+#fleft p{
+    color: white;
+    font-size: small;
+}
+#fright p{
+    color: white;
+    font-size: small;
+}
+#fright img{
+    height: 50px;
+    width: 50px;
+    display: inline;
+    padding: 10px;
+}
+#fltieude
+{
+    font-size: x-large;
+    background-color: darkgoldenrod;
+}
+
+#giohang
+{
+    text-decoration: none;
+    color: white;
+}
+
+#user
+{
+    text-decoration: none;
+    color: white;
+}
+
+@media  screen and (max-width: 768px) {
+    .main{
+        width: 50%;
+       
+    }
+    .thanhtieude{
+       
+        width: 100%;
+        height: 30px;
+        font-size: 30px;
+    }
+    #tieude{
+        font-size: 20px;
+    }
+    #thanhcongcu{
+        width: 100%;
+    }
+    #thanhcongcu a{
+        color: black;
+        font-size: 10px;
+        margin-left: 10px;
+        margin-top: none;
+    }
+
+
+    #thanhtimkiem{
+        margin-left: 20%;
+        font-size: xx-small;
+         border: 1px solid white;
+         float: left;
+         padding:0;
+         margin-right: 0;
+     }
+     .thanhtieude a{
+        float: right;
+         margin: auto;
+         display: inline;
+         margin-top: 5px;
+         padding: 10px;
+         font-size: xx-small;
+     }
+
+     .thanhtieude img{
+         display: inline;
+         padding: 3px 5px;
+         border: 1px solid white;
+         float: left;
+         margin-top:0;
+         cursor:pointer;
+         font-size: 2px;
+     }
+     #danhmuc{
+       font-size: 20px;
+       text-align: center;
+       margin-left: 30px;
+     }
+     .subgrid1{
+        height: 40px;
+        width: 40px;
+        padding: 0;
+        margin-left: 10px;
+     }
+     .subgrid2{
+        height: 40px;
+        width: 40px;
+        padding: 0;
+        margin-left: 10px;
+     }
+     .subgrid3{
+        height: 40px;
+        margin-left: 10px;
+        width: 40px;
+        padding: 0;
+     }
+     .list{
+        height: 50px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-areas:
+        ' r1 r2 r3'
+        'hoagio hoachau catcanh';   
+     }
+     #content{
+        width: 100%;
+        height: 200px;
+     }
+     
+
+     #footer{
+        margin-top: 10px;
+        height: 100px;
+        width: 100%;
+        border: 1px solid lightgreen;
+        font-family: 'Dancing Script', cursive;
+        background-color:lightgreen;
+        clear: both;
+    }
+    #fleft{
+        height: 100px;
+        width: 50%;
+        float: left;
+    }
+    #fright{
+        height: 100px;
+        width: 50%;
+        float: right;
+    }
+    #fleft p{
+        color: white;
+        font-size:small;
+    }
+    #fright p{
+        color: white;
+        font-size: larger;
+    }
+    #fright img{
+        height: 30px;
+        width: 30px;
+        display: inline;
+        padding: 10px;
+    }
+    
+}
+
+@media  screen and (max-width: 820px) and (min-width:769px) {
+    .subgrid1{
+        height: 200px;
+        width: 200px;
+        padding: 0;
+        margin-left: 10px;
+     }
+     .subgrid2{
+        height: 200px;
+        width: 200px;
+        padding: 0;
+        margin-left: 10px;
+     }
+     .subgrid3{
+        height: 200px;
+        width: 200px;
+        margin-left: 10px;
+        padding: 0;
+     }
+
+     
+     .thanhtieude img{
+        display: none;
+        margin-top: 0;
+        padding:0;
+        float: left;
+        margin-top:0;
+        cursor:pointer;
+        font-size: 0;
+    }
+}
